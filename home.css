@@ -1,0 +1,61 @@
+.hover_menu:hover {
+    border-bottom: 4px solid #000;
+}
+
+.menu-content-background{
+    margin: 0px 200px;
+}
+
+.background_home{
+    background-image: url('./img/dark.jpg');
+    background-size: cover;
+    background-position: center;
+}
+    
+
+@media (max-width: 1200px) {
+    .menu-content-background{
+        margin: 0px 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-content-background{
+        margin: 0px 10px;
+    }
+    .menu-content-right{
+        display: none;
+    }
+    .slide_news{
+        display: none;
+    }
+}
+
+/* CSS cho nút cuộn lên đầu trang */
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: #2C4A5E;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    z-index: 99;
+}
+
+#scrollToTopBtn:hover {
+    background-color: #537BC8;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+}
+
+#scrollToTopBtn i {
+    line-height: 40px;
+}

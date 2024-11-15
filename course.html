@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Khóa học</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./icon/">
+    <link rel="icon" type="image/png" sizes="32x32" href="./icon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./icon//favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./course.css">
+</head>
+
+<body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v20.0"
+        nonce="dgYkrs26"></script>
+
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #2C4A5E;">
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo_itc.png" alt="Logo" style="width: 100px;">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <!-- Menu chính -->
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item hover_menu">
+                            <a class="nav-link fw-bold text-dark px-5 fs-5" href="./home.html">Trang chủ</a>
+                        </li>
+                        <li class="nav-item hover_menu">
+                            <a class="nav-link fw-bold text-dark px-5 fs-5" href="./news.html">Bài viết</a>
+                        </li>
+                        <li class="nav-item hover_menu">
+                            <a class="nav-link fw-bold text-dark px-5 fs-5" href="./course.html">Khóa học</a>
+                        </li>
+                        <li class="nav-item hover_menu">
+                            <a class="nav-link fw-bold text-dark px-5 fs-5" href="./about.html">About Us</a>
+                        </li>
+                    </ul>
+
+                    <!-- Thanh tìm kiếm -->
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search...">
+                        <button class="btn btn-dark" type="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="contrainer background_home">
+            <div class="row bg-white menu-content-background">
+                <!-- chia cot chinh giua  -->
+                <div class="col-md-12 col-sm-12 p-5">
+                    <div class="row">
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="basi-tab" data-bs-toggle="tab"
+                                    data-bs-target="#basi" type="button" role="tab" aria-controls="basi"
+                                    aria-selected="true">
+                                    Kiến thức cơ bản
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="java-tab" data-bs-toggle="tab" data-bs-target="#java"
+                                    type="button" role="tab" aria-controls="java" aria-selected="false">
+                                    Java
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="python-tab" data-bs-toggle="tab"
+                                    data-bs-target="#python" type="button" role="tab" aria-controls="python"
+                                    aria-selected="false">
+                                    Python
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="c-tab" data-bs-toggle="tab"
+                                    data-bs-target="#c" type="button" role="tab" aria-controls="c"
+                                    aria-selected="false">
+                                    C#
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="javascript-tab" data-bs-toggle="tab"
+                                    data-bs-target="#javascript" type="button" role="tab" aria-controls="javascript"
+                                    aria-selected="false">
+                                    JavaScript
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="website-tab" data-bs-toggle="tab"
+                                    data-bs-target="#website" type="button" role="tab" aria-controls="website"
+                                    aria-selected="false">
+                                    Thiết kế Web
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="csdl-tab" data-bs-toggle="tab"
+                                    data-bs-target="#csdl" type="button" role="tab" aria-controls="csdl"
+                                    aria-selected="false">
+                                    Cơ sở dữ liệu
+                                </button>
+                            </li>
+                        </ul>
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="basi" role="tabpanel" aria-labelledby="home-tab">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="card h-100">
+                                            <img class="card-img-top course-image" src="./img/ctdl.png" alt="Title" />
+                                            <div class="card-body">
+                                                <h4 class="card-title fw-bold">Cấu trúc dữ liệu và giải thuật
+                                                    (Java và C++)</h4>
+                                                <p class="card-text">The Brown Box</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card h-100">
+                                            <img class="card-img-top course-image" src="./img/docker.png" alt="Title" />
+                                            <div class="card-body">
+                                                <h4 class="card-title fw-bold">Tự học Docker</h4>
+                                                <p class="card-text">Hỏi Dân IT</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card h-100">
+                                            <img class="card-img-top course-image" src="./img/git.png" alt="Title" />
+                                            <div class="card-body">
+                                                <h4 class="card-title fw-bold">Học Git và Github</h4>
+                                                <p class="card-text">TITV</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card h-100">
+                                            <img class="card-img-top course-image" src="./img/linux.png" alt="Title" />
+                                            <div class="card-body">
+                                                <h4 class="card-title fw-bold">Hệ điều hành Linux</h4>
+                                                <p class="card-text">TITV</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card h-100">
+                                            <img class="card-img-top course-image" src="./img/gt.png" alt="Title" />
+                                            <div class="card-body">
+                                                <h4 class="card-title fw-bold">Cấu trúc dữ liệu và giải thuật
+                                                    (bản chất & tư duy)</h4>
+                                                <p class="card-text">Ông Dev</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="java" role="tabpanel" aria-labelledby="profile-tab">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="card h-100">
+                                            <img class="card-img-top course-image" src="./img/java.png" alt="Title" />
+                                            <div class="card-body">
+                                                <h4 class="card-title fw-bold">Lập trình Java cơ bản
+                                                    (phù hợp người mới)</h4>
+                                                <p class="card-text">TITV</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card h-100">
+                                            <img class="card-img-top course-image" src="./img/javaGa.png" alt="Title" />
+                                            <div class="card-body">
+                                                <h4 class="card-title fw-bold">Lập trình java siêu tốc</h4>
+                                                <p class="card-text">Gà lại lập trình</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card h-100">
+                                            <img class="card-img-top course-image" src="./img/javaSQL.png" alt="Title" />
+                                            <div class="card-body">
+                                                <h4 class="card-title fw-bold">Java kết nối SQL</h4>
+                                                <p class="card-text">TITV</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="python" role="tabpanel" aria-labelledby="messages-tab">
+                                <div class="row">
+
+                                    <div class="col-md-3">
+                                        <div class="card h-100">
+                                            <img class="card-img-top course-image" src="./img/python.png" alt="Title" />
+                                            <div class="card-body">
+                                                <h4 class="card-title fw-bold">Lập trình python cơ bản</h4>
+                                                <p class="card-text">CodeXplore</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card h-100">
+                                            <img class="card-img-top course-image" src="./img/py.png" alt="Title" />
+                                            <div class="card-body">
+                                                <h4 class="card-title fw-bold">Python cơ bản và
+                                                    hướng đối tượng</h4>
+                                                <p class="card-text">TITV</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card h-100">
+                                            <img class="card-img-top course-image" src="./img/statics.png" alt="Title" />
+                                            <div class="card-body">
+                                                <h4 class="card-title fw-bold">Statics <br>
+                                                    (Xác suất thống kê)</h4>
+                                                <p class="card-text">freeCodeCamp.org</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card h-100">
+                                            <img class="card-img-top course-image" src="./img/data.png" alt="Title" />
+                                            <div class="card-body">
+                                                <h4 class="card-title fw-bold">DataScience </h4>
+                                                <p class="card-text">CodeXplore</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card h-100">
+                                            <img class="card-img-top course-image" src="./img/machine.png" alt="Title" />
+                                            <div class="card-body">
+                                                <h4 class="card-title fw-bold">Lập trình Machine learning
+                                                    cơ bản với Python </h4>
+                                                <p class="card-text">Kteam</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="c" role="tabpanel" aria-labelledby="messages-tab">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="card h-100">
+                                            <img class="card-img-top course-image" src="./img/Chash.png" alt="Title" />
+                                            <div class="card-body">
+                                                <h4 class="card-title fw-bold">Lập trình C#</h4>
+                                                <p class="card-text">Kteam</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card h-100">
+                                            <img class="card-img-top course-image" src="./img/ChashAdvance.png" alt="Title" />
+                                            <div class="card-body">
+                                                <h4 class="card-title fw-bold">Lập trình C# nâng cao</h4>
+                                                <p class="card-text">Kteam</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="javascript" role="tabpanel" aria-labelledby="messages-tab">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="card h-100">
+                                            <img class="card-img-top course-image" src="./img/js.png" alt="Title" />
+                                            <div class="card-body">
+                                                <h4 class="card-title fw-bold">JavaScrip (có kèm bài tập)</h4>
+                                                <p class="card-text">Gà lại lập trình</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card h-100">
+                                            <img class="card-img-top course-image" src="./img/jsEng.png" alt="Title" />
+                                            <div class="card-body">
+                                                <h4 class="card-title fw-bold">Learning JavaScrip with 12Hour</h4>
+                                                <p class="card-text">Bro Code</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="website" role="tabpanel" aria-labelledby="messages-tab">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="card h-100">
+                                            <img class="card-img-top course-image" src="./img/tkweb.png" alt="Title" />
+                                            <div class="card-body">
+                                                <h4 class="card-title fw-bold">HTML & CSS (chi tiết)</h4>
+                                                <p class="card-text">Gà lại lập trình</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card h-100">
+                                            <img class="card-img-top course-image" src="./img/project.png" alt="Title" />
+                                            <div class="card-body">
+                                                <h4 class="card-title fw-bold">Các Project nhỏ</h4>
+                                                <p class="card-text">Nodemy</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="csdl" role="tabpanel" aria-labelledby="messages-tab">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="card h-100">
+                                            <img class="card-img-top course-image" src="./img/csdl.png" alt="Title" />
+                                            <div class="card-body">
+                                                <h4 class="card-title fw-bold">Tối ưu và hiểu rõ bản chất
+                                                    , tư duy SQL</h4>
+                                                <p class="card-text">Trần Quốc Huy - DataBase</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card h-100">
+                                            <img class="card-img-top course-image" src="./img/sqlKteam.png" alt="Title" />
+                                            <div class="card-body">
+                                                <h4 class="card-title fw-bold">Chi tiết giải thích về SQL
+                                                    và thực hành</h4>
+                                                <p class="card-text">Kteam</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card h-100">
+                                            <img class="card-img-top course-image" src="./img/sqlTITV.png" alt="Title" />
+                                            <div class="card-body">
+                                                <h4 class="card-title fw-bold">Sql sever</h4>
+                                                <p class="card-text">TITV</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card h-100">
+                                            <img class="card-img-top course-image" src="./img/mySQL.png" alt="Title" />
+                                            <div class="card-body">
+                                                <h4 class="card-title fw-bold">My SQL</h4>
+                                                <p class="card-text">TITV</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer class="text-white py-4"
+        style="background: rgb(83, 123, 200);
+  background: linear-gradient(90deg, rgba(83, 123, 200, 1) 25%, rgba(119, 183, 198, 1) 83%, rgba(195, 251, 255, 1) 100%);">
+        <div class="container">
+            <div class="row">
+                <!-- Cột Liên Hệ -->
+                <div class="col-md-4">
+                    <h2 class="mb-4">Liên Hệ</h2>
+                    <p>
+                        <i class="fa-solid fa-location-dot me-2"></i>
+                        Địa điểm: Tầng Trệt A Trường cao đẳng Công Nghệ Thông Tin (phía sau Phòng Tin Học và Ngoại Ngữ)
+                    </p>
+                    <div>
+                        <p class="mb-2">Theo dõi chúng tôi tại:</p>
+                        <a href="https://www.facebook.com/profile.php?id=61559944978578" class="text-white me-3">
+                            <i class="fab fa-facebook-f fa-lg"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Cột Liên kết nhanh -->
+                <div class="col-md-4">
+                    <h2 class="mb-4">Liên kết nhanh</h2>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <i class="fa-solid fa-user-plus me-2"></i>
+                            <a href="#" class="text-white text-decoration-none">Đăng kí thành viên</a>
+                        </li>
+                        <li class="mb-2">
+                            <i class="fa-solid fa-school me-2"></i>
+                            <a href="https://itc.edu.vn/" class="text-white text-decoration-none">Trang chủ chính thức
+                                trường CĐ CNTT</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Cột Google Map -->
+                <div class="col-md-4">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d449.2714854342751!2d106.63432329819565!3d10.77510407039651!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ea144839ef1%3A0x798819bdcd0522b0!2zVHLGsOG7nW5nIENhbyDEkOG6s25nIEPDtG5nIE5naOG7hyBUaMO0bmcgVGluIFRwLkjhu5MgQ2jDrSBNaW5o!5e0!3m2!1svi!2s!4v1717337174909!5m2!1svi!2s"
+                        width="90%" height="80%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="text-center mt-4 pt-4 border-top">
+                <p class="mb-0">© Copyright CLB Tin học ITE All Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="scrollToTopBtn" title="Go to top"><i class="fa fa-angle-up"></i></button>
+
+    <script>
+        let mybutton = document.getElementById("scrollToTopBtn");
+        window.onscroll = function () { scrollFunction() };
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        mybutton.onclick = function () {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
